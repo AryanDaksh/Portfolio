@@ -12,7 +12,7 @@ const introdata = {
         third: "Let's Collaborate on Cutting-Edge Technologies",
     },
     description: "A passionate Computer Science major with a deep interest in Software Development and Cloud Computing.",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: "https://images.pexels.com/photos/5496464/pexels-photo-5496464.jpeg",
 };
 
 const dataabout = {
