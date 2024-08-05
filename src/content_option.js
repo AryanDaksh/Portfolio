@@ -99,7 +99,7 @@ const dataportfolio = [{
     {
         img: "https://picsum.photos/400/700/?grayscale",
         description: "My Portfolio Website",
-        link: "#",
+        link: "https://github.com/AryanDaksh27/Portfolio",
     },
 
 ];
