@@ -17,7 +17,7 @@ const introdata = {
 
 const dataabout = {
     title: "A bit about myself:",
-    aboutme: "I thrive on tackling new challenges and am always eager to explore the latest advancements in technology. My technical toolkit includes proficiency in Python, Java and cloud platforms such as AWS and Azure, along with a solid foundation in Data Structures and Object-Oriented Programming. ",
+    aboutme: "I thrive on tackling new challenges and am always eager to explore the latest advancements in technology. My technical toolkit includes proficiency in Java, Python and cloud platforms such as AWS and Azure, along with a solid foundation in Data Structures and Object-Oriented Programming. ",
 };
 const worktimeline = [{
         jobtitle: "Undergraduate Research Assistant",
@@ -39,7 +39,7 @@ const skills = [
     },
     {
         name: "SpringBoot",
-        value: 95,
+        value: 80,
     },
     {
         name: "Python",
@@ -74,32 +74,32 @@ const services = [{
 const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
         description: "Student Data Management System Using SpringBoot",
-        link: "https://github.com/AryanDaksh27/Student-Data-Management-System-using-Spring",
+        link: "https://github.com/AryanDaksh/Student-Data-Management-System-using-Spring",
     },
     {
         img: "https://picsum.photos/400/800/?grayscale",
         description: "Detecting Trojan Traffic Using Machine Learning Algorithms",
-        link: "https://github.com/AryanDaksh27/Trojan-Traffic-Detector",
+        link: "https://github.com/AryanDaksh/Traffic-Trojan-Detector",
     },
     {
         img: "https://picsum.photos/400/600/?grayscale",
         description: "Face Recognition Based Attendance System",
-        link: "https://github.com/AryanDaksh27/Face-Detection",
+        link: "https://github.com/AryanDaksh/Face-Recognition-Based-Attendance-System",
     },   
     {
         img: "https://picsum.photos/400/400?grayscale",
         description: "Detecting Fake News Using Binary Classification",
-        link: "https://github.com/AryanDaksh27/Fake-News-Classification",
+        link: "https://github.com/AryanDaksh/Fake-News-Classification",
     },
     {
         img: "https://picsum.photos/400/500/?grayscale",
         description: "Fuzzy Systems For A Food Cooking Problem",
-        link: "https://github.com/AryanDaksh27/Cooking-Problem-Fuzzy-System",
+        link: "https://github.com/AryanDaksh/Cooking-Problem-Fuzzy-System",
     },
     {
         img: "https://picsum.photos/400/700/?grayscale",
         description: "My Portfolio Website",
-        link: "https://github.com/AryanDaksh27/Portfolio",
+        link: "https://github.com/AryanDaksh/Portfolio",
     },
 
 ];
@@ -114,7 +114,7 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com/AryanDaksh27",
+    github: "https://github.com/AryanDaksh",
     instagram: "https://www.instagram.com/aryandaksh_/",
     linkedin: "https://www.linkedin.com/in/aryan-daksh-8b2a4223b/",
     twitter: "https://x.com/Abcde1201501196",
