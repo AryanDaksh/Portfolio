@@ -105,7 +105,7 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "aryandaksh2711@gmail.com.com",
+    YOUR_EMAIL: "aryandaksh2711@gmail.com",
     YOUR_FONE: "+91-9354141341",
     description: "I'd love to hear from you. Whether you have a question, a project idea, feel free to reach out. Looking forward to connecting with you!",
     YOUR_SERVICE_ID: "service_w09gsfw",
