@@ -7,8 +7,8 @@ const meta = {
 const introdata = {
     title: "Hello! My name is Aryan Daksh",
     animated: {
-        first: "Currently pursuing Computer Science in Manipal University Jaipur",
-        second: "Fluent in Programming Languages like Java and Python",
+        first: "Currently pursuing Computer Science at Manipal University Jaipur",
+        second: "Fluent in Java and Python",
         third: "Let's Collaborate on Cutting-Edge Technologies",
     },
     description: "A passionate Computer Science major with a deep interest in Software Development and Cloud Computing.",
@@ -72,7 +72,7 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
+        img: "https://picsum.photos/400?grayscale",
         description: "Student Data Management System Using SpringBoot",
         link: "https://github.com/AryanDaksh/Student-Data-Management-System-using-Spring",
     },
@@ -83,22 +83,22 @@ const dataportfolio = [{
     },
     {
         img: "https://picsum.photos/400/600/?grayscale",
+        description: "Credit Card Approval Prediction using Machine Learning Algorithms",
+        link: "https://github.com/AryanDaksh/Credit-Card-Approval-Prediction",
+    },
+    {
+        img: "https://picsum.photos/400/500/?grayscale",
         description: "Face Recognition Based Attendance System",
         link: "https://github.com/AryanDaksh/Face-Recognition-Based-Attendance-System",
     },   
     {
-        img: "https://picsum.photos/400/400?grayscale",
+        img: "https://picsum.photos/400/500?grayscale",
         description: "Detecting Fake News Using Binary Classification",
         link: "https://github.com/AryanDaksh/Fake-News-Classification",
     },
     {
-        img: "https://picsum.photos/400/500/?grayscale",
-        description: "Fuzzy Systems For A Food Cooking Problem",
-        link: "https://github.com/AryanDaksh/Cooking-Problem-Fuzzy-System",
-    },
-    {
         img: "https://picsum.photos/400/700/?grayscale",
-        description: "My Portfolio Website",
+        description: "My Portfolio",
         link: "https://github.com/AryanDaksh/Portfolio",
     },
 
