@@ -17,45 +17,61 @@ export const ContactUs = () => {
     variant: "",
   });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setFormdata({ loading: true });
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        setFormdata({ loading: true });
 
-    const templateParams = {
-      from_name: formData.email,
-      user_name: formData.name,
-      to_name: contactConfig.YOUR_EMAIL,
-      message: formData.message,
+        const templateParams = {
+            from_name: formData.name,
+            from_email: formData.email,
+            to_name: "Aryan Daksh",
+            to_email: contactConfig.YOUR_EMAIL,
+            message: formData.message,
+        };
+
+        emailjs
+            .send(
+                contactConfig.YOUR_SERVICE_ID,
+                contactConfig.YOUR_TEMPLATE_ID,
+                templateParams,
+                contactConfig.YOUR_USER_ID
+            )
+            .then((result) => {
+                console.log("Message sent to me:", result.text);
+
+                // 2️⃣ Send auto-reply to THEM
+                const autoReplyParams = {
+                    to_name: formData.name,
+                    to_email: formData.email,
+                };
+
+                emailjs
+                    .send(
+                        contactConfig.YOUR_SERVICE_ID,
+                        contactConfig.YOUR_AUTO_REPLY_TEMPLATE_ID,
+                        autoReplyParams,
+                        contactConfig.YOUR_USER_ID
+                    )
+                    .then(() => {
+                        setFormdata({
+                            loading: false,
+                            alertmessage:
+                                "Thank you for your message! A confirmation email has been sent.",
+                            variant: "success",
+                            show: true,
+                        });
+                    });
+            })
+            .catch((error) => {
+                console.error("Email sending failed:", error.text);
+                setFormdata({
+                    alertmessage: `Failed to send! ${error.text}`,
+                    variant: "danger",
+                    show: true,
+                });
+                document.getElementsByClassName("co_alert")[0].scrollIntoView();
+            });
     };
-
-    emailjs
-      .send(
-        contactConfig.YOUR_SERVICE_ID,
-        contactConfig.YOUR_TEMPLATE_ID,
-        templateParams,
-        contactConfig.YOUR_USER_ID
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          setFormdata({
-            loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
-            variant: "success",
-            show: true,
-          });
-        },
-        (error) => {
-          console.log(error.text);
-          setFormdata({
-            alertmessage: `Faild to send!,${error.text}`,
-            variant: "danger",
-            show: true,
-          });
-          document.getElementsByClassName("co_alert")[0].scrollIntoView();
-        }
-      );
-  };
 
   const handleChange = (e) => {
     setFormdata({

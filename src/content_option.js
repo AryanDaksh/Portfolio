@@ -7,7 +7,7 @@ const meta = {
 const introdata = {
     title: "Hello! My name is Aryan Daksh",
     animated: {
-        first: "Currently pursuing Computer Science at Manipal University Jaipur",
+        first: "Majored in Computer Science from Manipal University Jaipur",
         second: "Fluent in Java and Python",
         third: "Let's Collaborate on Cutting-Edge Technologies",
     },
@@ -20,13 +20,13 @@ const dataabout = {
     aboutme: "I thrive on tackling new challenges and am always eager to explore the latest advancements in technology. My technical toolkit includes proficiency in Java, Python and cloud platforms such as AWS and Azure, along with a solid foundation in Data Structures and Object-Oriented Programming. ",
 };
 const worktimeline = [{
-        jobtitle: "Undergraduate Research Assistant",
-        where: "Manipal University Jaipur",
-        date: "Jan 2024 - May 2024",
+        jobtitle: "Software Development Intern",
+        where: "RateGain Travel Technologies",
+        date: "Jan 2025 - June 2025",
     },
     {
         jobtitle: "Software Development Intern",
-        where: "RateGain",
+        where: "RateGain Travel Technologies",
         date: "June 2024 - September 2024",
     },
     
@@ -35,20 +35,20 @@ const worktimeline = [{
 const skills = [
     {
         name: "Java",
-        value: 90,
+        value: 100,
     },
     {
         name: "SpringBoot",
-        value: 80,
+        value: 100,
     },
     {
         name: "Python",
-        value: 80,
+        value: 60,
     },
     
     {
         name: "AWS",
-        value: 70,
+        value: 90,
     },
     {
         name: "React",
@@ -62,19 +62,19 @@ const services = [{
         description: "Create responsive, dynamic web applications using modern frameworks and technologies.",
     },
     {
-        title: "Cloud Architecture Design",
-        description: "Ability to design scalable, reliable, and cost-effective cloud solutions using AWS, Azure, or other cloud platforms.",
-    },
-    {
         title: "API Development and Integration",
         description: "Design and implement APIs for seamless integration with other systems and services.",
     },
+    {
+        title: "Cloud Architecture Design",
+        description: "Ability to design scalable, reliable, and cost-effective cloud solutions using AWS, Azure, or other cloud platforms.",
+    }
 ];
 
 const dataportfolio = [{
         img: "https://picsum.photos/400?grayscale",
-        description: "Student Data Management System Using SpringBoot",
-        link: "https://github.com/AryanDaksh/Student-Data-Management-System-using-Spring",
+        description: "Crypto Trading Platform using Spring Boot and React",
+        link: "https://github.com/AryanDaksh/Trading-Application",
     },
     {
         img: "https://picsum.photos/400/800/?grayscale",
@@ -83,8 +83,8 @@ const dataportfolio = [{
     },
     {
         img: "https://picsum.photos/400/600/?grayscale",
-        description: "Credit Card Approval Prediction using Machine Learning Algorithms",
-        link: "https://github.com/AryanDaksh/Credit-Card-Approval-Prediction",
+        description: "Project Management System using Spring Boot and React.js",
+        link: "https://github.com/AryanDaksh/Project-Management-System-Using-SpringBoot-And-React.js",
     },
     {
         img: "https://picsum.photos/400/500/?grayscale",
@@ -108,16 +108,17 @@ const contactConfig = {
     YOUR_EMAIL: "aryandaksh2711@gmail.com",
     YOUR_FONE: "+91-9354141341",
     description: "I'd love to hear from you. Whether you have a question, a project idea, feel free to reach out. Looking forward to connecting with you!",
-    YOUR_SERVICE_ID: "service_w09gsfw",
+    YOUR_SERVICE_ID: "service_kqyne4k",
     YOUR_TEMPLATE_ID: "template_0rg8wtd",
     YOUR_USER_ID: "PSso4eALXlw-fb5xz",
+    YOUR_AUTO_REPLY_TEMPLATE_ID: "template_loaolno",
 };
 
 const socialprofils = {
     github: "https://github.com/AryanDaksh",
     instagram: "https://www.instagram.com/aryandaksh_/",
     linkedin: "https://www.linkedin.com/in/aryan-daksh-8b2a4223b/",
-    twitter: "https://x.com/Abcde1201501196",
+    //twitter: "https://x.com/Abcde1201501196",
 };
 export {
     meta,
